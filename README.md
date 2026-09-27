@@ -8,7 +8,7 @@ AAI-500 Probability and Statistics for AI, University of San Diego, Final Team P
 | Member | Primary responsibilities |
 |---|---|
 | Abhineet Sood | [fill in] |
-| Ravi [Last name] | [fill in] |
+| Ravi Kanth Vuddagiri | [fill in] |
 
 Both members write code, review each other's pull requests, and contribute to the report and presentation.
 
