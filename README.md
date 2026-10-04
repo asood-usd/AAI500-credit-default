@@ -45,7 +45,7 @@ Yeh, I.-C. & Lien, C.-H. (2009). *The comparisons of data mining techniques for 
 | Payment amount | `PAY_AMT1` … `PAY_AMT6` | Amount paid, Sep → Apr 2005 |
 | Target | `DEFAULT` (raw: `default payment next month`) | 1 = defaulted, 0 = did not |
 
-The raw data isn't committed. `src/data_loader.py` downloads it from UCI into `data/raw/` the first time a notebook runs.
+The raw file is committed in `data/raw/` (the dataset is licensed CC BY 4.0), so the notebooks run even if the UCI link is down. If the file is missing, `src/data_loader.py` downloads it from UCI the first time a notebook runs. The files in `data/processed/` aren't committed; the notebooks rebuild them.
 
 ## Repository structure
 
@@ -55,7 +55,7 @@ AAI500-credit-default/
 ├── requirements.txt
 ├── .gitignore
 ├── data/
-│   ├── raw/                  # downloaded .xls (git-ignored)
+│   ├── raw/                  # original UCI .xls (committed)
 │   └── processed/            # cleaned CSV written by notebook 01 (git-ignored)
 ├── notebooks/
 │   ├── 01_data_prep_eda.ipynb          # load, quality checks, cleaning, first EDA
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/01_data_prep_eda.ipynb
 ```
 
-Run the notebooks in order (01 → 04). Notebook 01 downloads the data and writes `data/processed/credit_default_clean.csv`, which the later notebooks read. Notebook 03 writes the model predictions that notebook 04 evaluates.
+Run the notebooks in order (01 → 04). Notebook 01 loads the raw file and writes `data/processed/credit_default_clean.csv`, which the later notebooks read. Notebook 03 writes the model predictions that notebook 04 evaluates.
 
 To rebuild the report PDF after editing `reports/final_report.md` (needs Google Chrome):
 

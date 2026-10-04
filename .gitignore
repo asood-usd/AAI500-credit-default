@@ -1,7 +1,9 @@
-# Data (downloaded by src/data_loader.py, not committed)
+# Data: the raw UCI file is committed (CC BY 4.0) so the notebooks run even if
+# the UCI link is down; processed files are rebuilt by the notebooks.
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
+!data/raw/default of credit card clients.xls
 !data/processed/.gitkeep
 
 # Python
