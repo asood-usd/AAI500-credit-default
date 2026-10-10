@@ -14,8 +14,8 @@ Both members write code, review each other's pull requests, and contribute to th
 
 ## Project overview
 
-Lenders lose money when a client stops paying their card balance. This project uses six months of
-billing and repayment history, plus basic demographics, to estimate the probability that a client
+Lenders lose money when a client stops paying their card balance. Lenders cash flow will be impacted if clients stop repaying card balances.
+This project uses six months of billing and repayment history, plus basic demographics, to estimate the probability that a client
 will default on next month's payment. We also want to know which factors drive that risk.
 
 **Objectives**
