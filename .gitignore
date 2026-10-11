@@ -1,0 +1,26 @@
+# Data: the raw UCI file is committed (CC BY 4.0) so the notebooks run even if
+# the UCI link is down; processed files are rebuilt by the notebooks.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/raw/default of credit card clients.xls
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Report build intermediates
+reports/_build/

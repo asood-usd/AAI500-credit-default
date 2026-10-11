@@ -1,0 +1,16 @@
+,feature,coef,odds_ratio,ci_low,ci_high,p_value
+LIMIT_10K,"Credit limit (per NTD 10,000)",-0.017,0.983,0.98,0.987,0.0
+AGE_10Y,Age (per 10 years),0.051,1.052,1.004,1.102,0.032
+FEMALE,Female (vs. male),-0.145,0.865,0.802,0.933,0.0
+EDU_UNIV,University (vs. graduate school),-0.007,0.993,0.91,1.084,0.872
+EDU_HS,High school (vs. graduate school),-0.048,0.953,0.848,1.071,0.42
+EDU_OTHER,Other education (vs. graduate school),-1.293,0.275,0.171,0.441,0.0
+SINGLE,Single (vs. married),-0.127,0.88,0.808,0.959,0.004
+MAR_OTHER,Other marital status (vs. married),-0.195,0.823,0.591,1.146,0.249
+SEP_REVOLVING,Sep: revolving credit (vs. paid / no balance),-0.314,0.731,0.651,0.82,0.0
+SEP_LATE_1M,Sep: 1 month late (vs. paid / no balance),0.38,1.463,1.289,1.66,0.0
+SEP_LATE_2PLUS,Sep: 2+ months late (vs. paid / no balance),1.79,5.989,5.191,6.911,0.0
+MONTHS_LATE_PRIOR,"Months late, Apr-Aug (count 0-5)",0.251,1.285,1.246,1.326,0.0
+UTILIZATION,Sep bill / credit limit,0.241,1.272,1.128,1.434,0.0
+LOG_PAY_AMT1,log(1 + Sep payment),-0.043,0.958,0.946,0.97,0.0
+LOG_PAY_AMT2,log(1 + Aug payment),-0.039,0.961,0.95,0.973,0.0

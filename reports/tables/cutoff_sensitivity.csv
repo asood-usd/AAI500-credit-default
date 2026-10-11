@@ -1,0 +1,5 @@
+cost ratio (miss : false alarm),best cutoff,theory 1/(1+ratio),share_flagged,recall,precision
+2 : 1,0.34,0.33,0.164,0.431,0.582
+3 : 1,0.23,0.25,0.251,0.551,0.487
+5 : 1,0.16,0.17,0.413,0.711,0.381
+10 : 1,0.11,0.09,0.756,0.923,0.27
