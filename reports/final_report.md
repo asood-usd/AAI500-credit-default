@@ -18,6 +18,18 @@ GitHub repository: https://github.com/asood-usd/AAI500-credit-default
 
 </div>
 
+## Use of Generative AI Tools — Disclosure
+
+**Tool used:** Claude (Anthropic), accessed through Claude Code.
+
+**Purpose of use:** We used Claude as a coding and writing partner for this project.
+
+**What we implemented and modified:** We planned the analysis and made the main decisions together: how to
+treat the undocumented codes, which features to build, which model to recommend, and the cost assumption. We
+created rough drafts of the code and the report and used AI's help with setting up the repository, polishing the
+wording, and fixing Python syntax. We ran every notebook ourselves and confirmed that each number in this report
+matches the notebook output.
+
 ## 1. Introduction
 
 When a credit card client stops paying, the bank loses the unpaid balance. If the bank could spot risky
@@ -424,17 +436,6 @@ https://doi.org/10.24432/C55S3H
 Yeh, I.-C., & Lien, C.-H. (2009). The comparisons of data mining techniques for the predictive accuracy of
 probability of default of credit card clients. *Expert Systems with Applications, 36*(2), 2473–2480.
 https://doi.org/10.1016/j.eswa.2007.12.020
-
-## Use of Generative AI Tools — Disclosure
-
-**Tool used:** Claude (Anthropic), accessed through Claude Code.
-
-**Purpose of use:** We used Claude as a coding and writing partner for this project.
-
-**What we implemented and modified:** We planned the analysis and made the decisions together (how to treat
-the undocumented codes, which features to build, which model to recommend, and the cost assumption). We
-used AI's help to set up the repository, fix Python syntax, and polish the wording of this report. We ran
-every notebook ourselves and checked that each number in the report matches the notebook output.
 
 ## Appendix: Notebook Output
 
