@@ -1,7 +1,7 @@
 # AAI500-credit-default
 
-**Predicting Credit Card Payment Default Using Client Demographics and Payment History**
-AAI-500 Probability and Statistics for AI, University of San Diego, Final Team Project
+**Who Is at Risk of Credit Card Default? A Statistical Analysis**
+AAI-500: Applied Probability and Statistics for AI, University of San Diego, Final Team Project (Group 02)
 
 ## Team
 
